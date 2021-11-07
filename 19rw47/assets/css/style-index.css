@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: black;
+} /*Toda a página*/
+
+form{
+    min-width: 320px;
+    max-width: 800px;
+    position: fixed;
+    top: 70%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: auto;
+} /*Area de login*/
+
+img {
+    width: 130px;
+    padding: 0px;
+    transition: .5s;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 70%;
+    padding: 10px ;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
+    font-weight: 500;
+    letter-spacing: .9px;
+    transition: .5s;
+} /*Botões*/
+
+p {
+    color: aliceblue;
+    margin: 250px 50px;
+    font-size: 11px;
+    display: block;
+    font-family: "Abel", sans-serif;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    width: 90%;
+}
+
+img:hover{
+    width: 150px;
+    padding: 0px;
+}
+

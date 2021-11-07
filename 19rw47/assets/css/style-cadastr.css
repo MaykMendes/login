@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Abel", sans-serif;
+}
+
+.box img {
+    width: 130px;
+    padding: 0;
+    transition: .5s;
+}
+
+.box{
+    min-width: 320px;
+    max-width: 800px;
+    position: fixed;
+    top: 52%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 10px;
+}
+
+.box .digitar input{
+    background: none;
+    display: block;
+    width: 65%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 12px;
+    margin: 15px auto;
+    outline: none;
+    color: white;
+    text-align: center;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.box .enviar input{
+    background-color: white;
+    color: black;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 10px;
+    transition: .5s;
+    cursor: pointer;
+    
+    letter-spacing: .9px;
+}
+
+.login a ,p{
+    color: white;
+}
+
+.sucess-cadastre p, a{
+    color: white;
+}
+
+.error-cadastre {
+    display: block;
+    color: white;
+}
+
+.box .copy p{
+    color: white;
+    margin: 80px 50px;
+    font-size: 11px;
+    display: block;
+    font-family: "Abel", sans-serif;
+}
+
+.contrato a{
+    color: red;
+    text-decoration: none;
+    
+}
+
+.box img:hover{
+    width: 150px;
+}
+
+.box .digitar input:focus{
+    background-color: white;
+    color: black;
+    width: 72%;
+}
+
+.box .enviar input:hover{
+    width: 250px;
+}
+
+::placeholder{
+    color:white;
+}

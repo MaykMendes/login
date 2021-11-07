@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.box img{
+    width: 130px;
+    padding: 0;
+    transition: .5s;
+}
+
+.box{
+    min-width: 320px;
+    max-width: 800px;
+    position: fixed;
+    top: 61%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 10px;
+}
+
+.box input[type="email"], .box input[type="password"]{
+    background: none;
+    display: block;
+    width: 80%;
+    padding: 10px ;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 20px auto;
+    outline: none;
+    border: 2px solid white;
+    font-family: "Abel", sans-serif;
+    color: white;
+    transition: .5s;
+    text-align: center;
+}
+
+.box input[type="submit"]{
+    background-color: white;
+    color: black;
+    width: 200px;
+    padding: 10px ;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 25px;
+    outline: none;
+    border: 2px solid white;
+    font-family: "Abel", sans-serif;
+    font-weight: 500;
+    letter-spacing: .9px;
+    transition: .5s;
+    text-align: center;
+    cursor: pointer;
+    display: center;
+
+}
+
+
+.box p, a{
+    text-align: center;
+    color: white;
+    font-family: "Abel", sans-serif;
+    font-size: 15px;
+}
+
+.box .copy p{
+    color: white;
+    margin: 130px 50px;
+    font-size: 11px;
+    display: block;
+    font-family: "Abel", sans-serif;
+}
+
+.box img:hover{
+    width: 150px;
+}
+
+
+.box input[type="email"]:focus, .box input[type="password"]:focus{
+    background-color: white;
+    color: black;
+    width: 92%;
+}
+
+.box input[type="submit"]:hover{
+    width: 250px;
+}
+
+::placeholder{
+    color: white;
+}

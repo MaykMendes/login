@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.termos h1{
+    
+}
+
+.termos{
+    text-align: center;
+    font-family: Abel, sans-serif;
+    background-color: blue;
+    margin: 200px 100px;
+
+}
